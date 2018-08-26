@@ -374,14 +374,15 @@ ul li a{
 }
 .base-item .language:after{
 	content:"";
-	display:block;
+	display:inline-block;
+	vertical-align: middle;
 	width: 1px;
 	height:12px;
 	background-color: #e4e4e4;
 	margin-left: 4px;
 	margin-right: 4px;
 }
-.base-item .language:last-child:after{
+.base-item:last-child .language:after{
 	display: none;
 }
 
