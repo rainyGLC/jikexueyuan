@@ -7,42 +7,588 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div class="jk-header clearfix">
-			<div class="logo">
-				<a class="jike-logo" href="javascript:;"><img src="img/logo.png"></a>
-			</div>
-			<ul class="header-nav">
-				<li><a href="javascript:;">首页</a></li>
-				<li><a href="javascript:;">职业</a></li>
-				<li><a href="javascript:;">课程</a></li>
-				<li><a href="javascript:;">企业</a></li>
-				<li><a href="javascript:;">社区</a></li>
-			</ul>
-			<div class="header-search">
-				<input class="searchinput" placeholder="搜索课程、问答或WiKi">
-				<span class="search-icno"></span> 
-			</div>
-			<div class="header-login">
-					<a class="user-login" href="javascript:;">登录</a>
-					<span class="login-line"></span>
-					<a class="register" href="javascript:;">注册</a>
+		<div class="jk-bghearder">
+			<div class="jk-header clearfix">
+				<div class="logo">
+					<a class="jike-logo" href="javascript:;">
+						<img src="img/logo.png">
+					</a>
+				</div>
+				<ul class="header-nav">
+					<li>
+						<a href="javascript:;">首页</a></li>
+					<li>
+						<a href="javascript:;">职业</a>
+						<span class="frontier"></span>
+						<div class="submenu">
+							<p class="ubmenu-web">前端</p>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>Web前端工程师</a>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>微信小程序</a>
+							<p class="ubmenu-web">移动端</p>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>Android工程师</a>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>ios工程师</a>
+							<p class="ubmenu-web">后端</p>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>Python工程师</a>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>PHP工程师</a>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>Golang工程师</a>
+							<p class="ubmenu-web">大数据</p>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>大数据平台研发工程师</a>
+							<p class="ubmenu-web">人工智能</p>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>机器学习工程师</a>
+							<p class="ubmenu-web">区块链</p>
+								<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>区块链工程师</a>
+						</div>
+					</li>
+					<li><a href="javascript:;">课程</a>
+						<span class="frontier"></span>
+						<div class="submenu">
+							<a class="submenu-item" href="javascript:;">课程库</a>
+							<a class="submenu-item" href="javascript:;">职业路径</a>
+							<a class="submenu-item" href="javascript:;">知识体系</a>
+							<a class="submenu-item" href="javascript:;">系列课程</a>
+						</div>
+					</li>
+					<li><a href="javascript:;">企业</a>
+						<span class="frontier"></span>
+						<div class="submenu">
+							<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>微软人工智能</a>
+							<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>百度AI图像技术课</a>
+							<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>AWS云计算</a>
+							<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>腾讯云课程专区</a>
+							<a class="submenu-item" href="javascript:;"><i class="web-icon"></i>Qualcomm公开课</a>
+						</div>
+					</li>
+					<li><a href="javascript:;">社区</a>
+						<span class="frontier"></span>
+						<div class="submenu">
+							<a class="submenu-item" href="javascript:;">WiKi</a>
+							<a class="submenu-item" href="javascript:;">技术问答</a>	
+						</div>
+					</li>
+				</ul>
+				<div class="header-search">
+					<input class="searchinput" placeholder="搜索课程、问答或WiKi">
+					<span class="search-icno"></span> 
+				</div>
+				<div class="header-login">
+						<a class="user-login" href="javascript:;">登录</a>
+						<span class="login-line"></span>
+						<a class="register" href="javascript:;">注册</a>
+				</div>
 			</div>
 		</div>
-		<div class="jk-pager">
-			<div class="banner-container">
-				<!-- <a class="banner-previous" href="javascript:;"></a>
-				<a class="banner-next" href="javascript:;"></a> -->
+	<div class="jk-pager">
+		<div class="banner-container">
 				<div class="banner-conten clearfix">
 					<div class="banner-nav">
 						<ul class="aside-nav">
-							<li><a href="javascript:;">前端开发</a></li>
-							<li><a href="javascript:;">移动开发</a></li>
-							<li><a href="javascript:;">后端开发</a></li>
-							<li><a href="javascript:;">人工智能</a></li>
-							<li><a href="javascript:;">智能硬件/物联网</a></li>
-							<li><a href="javascript:;">设计/产品</a></li>
-							<li><a href="javascript:;">云计算/大数据</a></li>
-							<li><a href="javascript:;">技术支撑</a></li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">前端开发</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript:;">前端基础</a></dt>
+													<dd class="base-item"><a class="language" href="javascript:;">HTML</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">JavaScript</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">HTML5</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">CSS3</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">技术前瞻</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript:;">前端进阶</a></dt>
+													<dd class="base-item"><a class="language" href="javascript:;">Typescript</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">前端安全</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">项目实战</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript:;">前端框架</a></dt>
+													<dd class="base-item"><a class="language" href="javascript:;">jQuery</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">jQuery UI</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Ext JS</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">AngularJS</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">ReactJS</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Bootstrap</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">React Native</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Backbone</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Three js</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Moo Tools</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Compass</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript:;">HTML5游戏</a></dt>
+													<dd class="base-item"><a class="language" href="javascript:;">Canvas</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">SVG</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">WebGL</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Coco2d-js</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Create JS</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Flash</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Unreal</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Egret</a></dd>
+													<dd class="base-item"><a class="language" href="javascript:;">Phaser</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">移动开发</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">应用开发</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Android</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">IOS</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">游戏开发</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Cocos</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Unity3D</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">SpriteKit 2D</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Unreal</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">常用框架</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Cordova</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">React Native</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">后端开发</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">Python</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Python基础</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">web2py</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Django</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Flask</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">GUI</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据挖掘与分析</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">PHP</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">PHP基础</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">YII</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">ThinkPHP</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Laravel</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">WordPress</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Phalcon</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Apache</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Facebook Hack</a></dd>
+
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">Node.js</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Node.js基础</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">express</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Meteror</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Hexo</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">ASP.NET</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">C#</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">ASP.NET MVC</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Entity Framework</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">WPF</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">J2EE</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">JSP</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Maven</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Spring</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">SpringMVC</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Struts2</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">MyBatis</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Hibemate</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Lucene</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">常用框架</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">项目实战</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">Ruby</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Ruby基础</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Ruby on Rils</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Grape</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Ruby进阶</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">RubyMine</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">GO</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Go基础</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Revel</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">beego</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">Erlang</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Erlang基础</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">人工智能</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">人工智能基础</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">行业解读</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">AWS人工智能简介</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">微软AI</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">人工智能概览</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">服务与API</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据分析</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">深度学习</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">开发基础</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">算法基础</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据结构</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">设计模式</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">软件工程</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">百度AI</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">文字识别</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">人脸识别</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">图像审核</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">PaddlePaddle</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">智能硬件/物联网</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">硬件架构</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">C51</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">ARM</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Kell</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Cortex-M</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Cortex-A</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">AVR</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">物联网操作系统</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">RTOS</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Android Wear</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Apple Watchkit</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">开源硬件平台</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Arduino</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">树莓派</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">mbed</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Gokit</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">LeMaker Guitar</a></dd>
+
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">开发工具</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Git </a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Github</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">SVN</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">VI</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">通信链接技术</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">无线WIFI</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">移动通信</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">蓝牙</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">NFC</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">企业认证</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">思科认证</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Oracle认证</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Linux认证</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">ARM认证</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">x信息感知处理技术</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">传感器</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据挖掘</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">人机交互技术</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">语音识别</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">人脸识别</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">手势识别</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">设计/产品</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">设计技术</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Photoshop</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Flash</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">IIIustrator</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Sketch</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">游戏设计</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">界面设计</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">角色设计</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">产品经理</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">需求分析</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Axure</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">项目实战</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">视觉设计</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">应用UI设计</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">网页UI设计</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">设计理论</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">图形设计</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">测试工具</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">自动化测试</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">云计算/大数据</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">云计算</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">OpenStack</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Docker</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">CloudStack</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">WindowsAzure</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">IaaS</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">大数据</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Hadoop</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Storm</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Hive</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Flume</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Kaflka</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Zookeeper</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Zookeeper</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Hbase</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Spark</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">信息检索</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据分析</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据研发</a></dd>
+
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">虚拟化</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">VMware</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">SQL</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">MySQL</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">SQL Server</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Oracle</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">SQLite</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">PostgreSQL</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">DB2</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">NoSQL</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Cassandra</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Redis</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">MongoDB</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">云平台</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">腾讯云</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">AWS</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="aside-list">
+								<div class="aside-border">
+									<a class="classify" href="javascript:;">技术支撑</a>
+									<div class="list-show">
+										<div class="knowledge-system">
+											<p class="knowledge-system-title">
+												<span class="system-titles">知识体系</span>
+											</p>
+											<div class="knowledge-list">
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">语言基础</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">C</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">C++</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Objective-C</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Swift</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">C#</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Jave</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Perl</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Shell</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Qt</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Scala</a></dd>
+												</dl>
+													<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">计算机基础</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">计算机组成原理</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">网络工程</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Word</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Excel</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">开发基础</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">算法基础</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据结构</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">设计模式</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">软件工程</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">开发工具</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Git </a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Github</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">SVN</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">VI</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">计算机等级考试</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">一级</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">二级C</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">二级java</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">二级C++</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">网络工程师</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">数据库工程师</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">信息工程师</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">企业认证</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">思科认证</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Oracle认证</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Linux认证</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">ARM认证</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">运维管理</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Shell</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">自动化运维</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Nginx</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Apache</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">运维监控</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">商业智能</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">FileMaker</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">操作系统</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">Linux</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Windows</a></dd>
+													<dd class="base-item"><a class="language" href="javascript">Mac OS</a></dd>
+												</dl>
+												<dl class="web-base">
+													<dt class="web-list"><a class="base-lage" href="javascript">企业服务</a></dt>
+													<dd class="base-item"><a class="language" href="javascript">B2C</a></dd>
+												</dl>
+											</div>
+										</div>
+										<div class="recommend-study">
+											<p class="recommend-title">
+												<span class="recommend-learming">推荐学习</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 					<div class="headline-container">
@@ -64,321 +610,321 @@
 				</div>
 				<a class="banner-previous" href="javascript:;"></a>
 				<a class="banner-next" href="javascript:;"></a>
-			</div>		
-		</div>
-		<div class="jike-ad">
-		<div class="ad-container">
+		</div>		
+			<div class="jike-ad">
+			<div class="ad-container">
 			<a class="ad-item" href="javascript:;"><img src="img/cloud.jpg"></a>
 			<a class="ad-item" href="javascript:;"><img src="img/AI.jpg"></a>
 			<a class="ad-item" href="javascript:;"><img src="img/Pro.jpg"></a>
-		</div>
-		</div>
-		<div class="jike-curriculum">
-		<div class="curriculum-hd">
-			<h3>最新课程</h3>
-		</div>
-		<div class="curriculum-bd clearfix">
-			<div class="bd-content">
-				<a href="javascript:;">
-					<img src="img/internal.jpg">
-					<p class="curriculum-title">Android性能优化详解——内存篇</p>
-					<p class="curriculum-info">中级<span>|</span>5门</p>
-				</a>
 			</div>
-			<div class="bd-content">
-				<a href="javascript:;">
-					<img src="img/TF.jpg">
-					<p class="curriculum-title">TensorFlow框架入门实战</p>
-					<p class="curriculum-info">初级<span>|</span>4门课</p>
-				</a>
-			</div>			
-			<div class="bd-content">
-				<a href="javascript:;">
-					<img src="img/machine.jpg">
-					<p class="curriculum-title">机器学习基石·篇</p>
-					<p class="curriculum-info">职业<span>|</span>1门课</p>
-				</a>
-			</div>			
-			<div class="bd-content">
-				<a href="javascript:;">
-					<img src="img/handle.jpg">
-					<p class="curriculum-title">深入浅出-自然语言处理</p>
-					<p class="curriculum-info">初级<span>|</span>8门课</p>
-				</a>
-			</div>						
-		</div>		
-		</div>
-		<div class="jike-occupation">
-		<div class="occupation-hd">
-			<h3 class="hd-title">职业方向</h3>
-			<a class="hd-more" href="">更多职业方向 >></a>
-		</div>
-		<ul>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-			<li class="status">
-				<a href="javascript">
-				<img src="img/Android.png">
-				<h3>Android工程师</h3>
-				</a>
-			</li>
-		</ul>
-		</div>
-		<div class="jike-knowledge">
-		<div class="knowledge-hd" >
-			<h3 class="knowledge-title">知识体系</h3>
-			<a class="knowledge-more" href="javascript">更多知识体系 >></a>
-		</div>
-		<ul>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-			<li class="knowledge-item">
-				<a class="knowledge-content" href="javascript"><img src="img/html.png">
-					<h3>HTML5开发</h3>
-					<span>115门课程</span>
-				</a>
-			</li>
-		</ul>
-		</div>
-		<div class="jike-carousel">
-		<span class="previous"></span>
-		<span class="next"></span>
-		<ul>
-			<li>
-				<a class="carousel-content" href="javascript:;">
-					<div class="carousel-cooperation">
-						<span class="cooperation-green">战略合作</span>
-						<p class="cooperation-recommed">各位伙伴，今天我们要和大家隆重介绍一位新的战略合作伙伴Make School，大家搬好小马扎，且听我慢慢道来。极客学院之使命</p>
-					</div>
-					<div class="carousel-story">
-						<img src="img/make-logo.jpg">
-						<p class="make-title">Make School</p>
-						<span class="make-item">Computer Science Education</span>
-					</div>
-				</a>
-			</li>
+			</div>
+			<div class="jike-curriculum">
+			<div class="curriculum-hd">
+			<h2>最新课程</h2>
+			</div>
+			<div class="curriculum-bd clearfix">
+				<div class="bd-content">
+					<a href="javascript:;">
+						<img src="img/internal.jpg">
+						<p class="curriculum-title">Android性能优化详解——内存篇</p>
+						<p class="curriculum-info">中级<span>|</span>5门</p>
+					</a>
+				</div>
+				<div class="bd-content">
+					<a href="javascript:;">
+						<img src="img/TF.jpg">
+						<p class="curriculum-title">TensorFlow框架入门实战</p>
+						<p class="curriculum-info">初级<span>|</span>4门课</p>
+					</a>
+				</div>			
+				<div class="bd-content">
+					<a href="javascript:;">
+						<img src="img/machine.jpg">
+						<p class="curriculum-title">机器学习基石·篇</p>
+						<p class="curriculum-info">职业<span>|</span>1门课</p>
+					</a>
+				</div>			
+				<div class="bd-content">
+					<a href="javascript:;">
+						<img src="img/handle.jpg">
+						<p class="curriculum-title">深入浅出-自然语言处理</p>
+						<p class="curriculum-info">初级<span>|</span>8门课</p>
+					</a>
+				</div>						
+			</div>		
+			</div>
+			<div class="jike-occupation">
+			<div class="occupation-hd">
+				<h3 class="hd-title">职业方向</h3>
+				<a class="hd-more" href="">更多职业方向 >></a>
+			</div>
+			<ul>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+				<li class="status">
+					<a href="javascript">
+					<img src="img/Android.png">
+					<h3>Android工程师</h3>
+					</a>
+				</li>
+			</ul>
+			</div>
+			<div class="jike-knowledge">
+				<div class="knowledge-hd" >
+					<h3 class="knowledge-title">知识体系</h3>
+					<a class="knowledge-more" href="javascript">更多知识体系 >></a>
+				</div>
+				<ul>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+						<h3>HTML5开发</h3>
+						<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+					<li class="knowledge-item">
+						<a class="knowledge-content" href="javascript"><img src="img/html.png">
+							<h3>HTML5开发</h3>
+							<span>115门课程</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="jike-carousel">
+			<span class="previous"></span>
+			<span class="next"></span>
+			<ul>
 				<li>
-				<a class="carousel-content" href="javascript:;">
-					<div class="carousel-cooperation">
-						<span class="cooperation-green">战略合作</span>
-						<p class="cooperation-recommed">各位伙伴，今天我们要和大家隆重介绍一位新的战略合作伙伴Make School，大家搬好小马扎，且听我慢慢道来。极客学院之使命</p>
-					</div>
-					<div class="carousel-story">
-						<img src="img/make-logo.jpg">
-						<p class="make-title">Make School</p>
-						<span class="make-item">Computer Science Education</span>
-					</div>
-				</a>
-			</li>
+					<a class="carousel-content" href="javascript:;">
+						<div class="carousel-cooperation">
+							<span class="cooperation-green">战略合作</span>
+							<p class="cooperation-recommed">各位伙伴，今天我们要和大家隆重介绍一位新的战略合作伙伴Make School，大家搬好小马扎，且听我慢慢道来。极客学院之使命</p>
+						</div>
+						<div class="carousel-story">
+							<img src="img/make-logo.jpg">
+							<p class="make-title">Make School</p>
+							<span class="make-item">Computer Science Education</span>
+						</div>
+					</a>
+				</li>
 				<li>
-				<a class="carousel-content" href="javascript:;">
-					<div class="carousel-cooperation">
-						<span class="cooperation-green">战略合作</span>
-						<p class="cooperation-recommed">各位伙伴，今天我们要和大家隆重介绍一位新的战略合作伙伴Make School，大家搬好小马扎，且听我慢慢道来。极客学院之使命</p>
-					</div>
-					<div class="carousel-story">
-						<img src="img/make-logo.jpg">
-						<p class="make-title">Make School</p>
-						<span class="make-item">Computer Science Education</span>
-					</div>
-				</a>
-			</li>
-		</ul>
-		</div>
-		<div class="jike-partner">
-		<div class="partner-hd" >
-			<h3 class="partner-title">合作企业</h3>
-			<a class="partner-more" href="javascript">更多企业 >></a>
-		</div>
-		<ul>
-			<li class="partner-list"><a href="javascript:;"><img src="img/microsoft.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/aws.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/tx.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/qual.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/tu.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/if.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/ch.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/sens.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/amd.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/data.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/qing.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/bugly.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/lie.png"></a></li>
-			<li class="partner-list"><a href="javascript:;"><img src="img/tetin.png"></a></li>
-		</ul>
+					<a class="carousel-content" href="javascript:;">
+						<div class="carousel-cooperation">
+							<span class="cooperation-green">战略合作</span>
+							<p class="cooperation-recommed">各位伙伴，今天我们要和大家隆重介绍一位新的战略合作伙伴Make School，大家搬好小马扎，且听我慢慢道来。极客学院之使命</p>
+						</div>
+						<div class="carousel-story">
+							<img src="img/make-logo.jpg">
+							<p class="make-title">Make School</p>
+							<span class="make-item">Computer Science Education</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a class="carousel-content" href="javascript:;">
+						<div class="carousel-cooperation">
+							<span class="cooperation-green">战略合作</span>
+							<p class="cooperation-recommed">各位伙伴，今天我们要和大家隆重介绍一位新的战略合作伙伴Make School，大家搬好小马扎，且听我慢慢道来。极客学院之使命</p>
+						</div>
+						<div class="carousel-story">
+							<img src="img/make-logo.jpg">
+							<p class="make-title">Make School</p>
+							<span class="make-item">Computer Science Education</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+			</div>
+			<div class="jike-partner">
+			<div class="partner-hd" >
+				<h3 class="partner-title">合作企业</h3>
+				<a class="partner-more" href="javascript">更多企业 >></a>
+			</div>
+			<ul>
+				<li class="partner-list"><a href="javascript:;"><img src="img/microsoft.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/aws.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/tx.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/qual.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/tu.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/if.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/ch.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/sens.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/amd.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/data.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/qing.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/bugly.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/lie.png"></a></li>
+				<li class="partner-list"><a href="javascript:;"><img src="img/tetin.png"></a></li>
+			</ul>
+			</div>
 		</div>
 	</div> 
-<div class="footer">
+	<div class="footer">
 	<div class="footer-content">
 		<div class="content-way">
 			<a href="javascript:;"><img src="img/otherway.png"></a>
@@ -397,8 +943,7 @@
 		<div class="copyright">
 			<p>Copyright © 2013-2018 jikexueyuan.com All Rights Reserved. 京ICP备11018032号 京公网安备11010802013056</p>
 		</div>
-	</div>
-	
-</div>                      
+	</div>	
+	</div>                      
 </body>
 </html>
